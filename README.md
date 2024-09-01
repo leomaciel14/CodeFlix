@@ -25,7 +25,7 @@ Este projeto é um clone da interface do Netflix, desenvolvido como parte do cur
 
 #### **2. Navegue até o diretório do projeto:**
 
-`cd netflix-clone`
+`cd CodeFlix`
 
 #### **Instale as dependências:**
 `npm install`
