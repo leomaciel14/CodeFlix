@@ -6,7 +6,8 @@ import Footer from "./Footer";
 const LoginHome = () => {
     return (
         <>
-            <div className="brightness-[.4] h-screen w-screen bg-no-repeat bg-cover absolute inset-0 bg-top bg-[url('./src/assets/img-bg.jpg')]">
+            <div className="brightness-[.4] h-screen w-screen bg-no-repeat bg-cover absolute inset-0 bg-top">
+                <img src="../img-bg.jpg" alt="Imagem de Fundo da Tela de Login" className="h-screen w-screen bg-no-repeat bg-cover inset-0 bg-top" />
             </div>
             <div className="flex flex-col m-auto items-center justify-center relative z-10">
                 <Navegation />

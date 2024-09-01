@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { login, signup } from "../src/firebase";
-import netflix_spinner from "../src/assets/netflix_spinner.gif";
 
 const Login = () => {
     const [singState, setSingStare] = useState("Entrar");
@@ -22,7 +21,7 @@ const Login = () => {
 
     return (
         loading?<div className="absolute top-0 w-full h-dvh flex items-center justify-center bg-black/90 backdrop-blur-md">
-            <img src={netflix_spinner} className="w-1/3 sm:w-32" alt="" />
+            <img src="../netflix_spinner.gif" className="w-1/3 sm:w-32" alt="" />
         </div>:
         <div className="flex flex-col p-12 sm:w-[28rem] bg-black/60 rounded-md mb-12">
             <div className="p-4">
