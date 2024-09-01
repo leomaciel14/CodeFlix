@@ -3,6 +3,8 @@
 Este projeto é um clone da interface do Netflix, desenvolvido como parte do curso de Formação de Desenvolvedor Full Stack. O objetivo é replicar a experiência de usuário do Netflix, incluindo funcionalidades de busca, exibição de filmes e séries, e um modal detalhado para cada título.
 
 ## Funcionalidades
+- **Autenticação:** O usuário deve se autenticar para acessar a plataforma. A autenticação é feita via Firebase do Google. Você pode criar sua conta inserindo um e-mail e senha, essas informações são gerenciadas pelo serviço do Google.
+
 - **Busca de Filmes e Séries:** Permite ao usuário buscar por títulos usando uma barra de pesquisa. Os resultados são filtrados em tempo real.
 
 - **Exibição de Títulos:** Mostra uma lista de filmes e séries, categorizados por seções como "Trending" e "New Releases".
@@ -16,6 +18,7 @@ Este projeto é um clone da interface do Netflix, desenvolvido como parte do cur
 - **React Router:** Para gerenciamento de rotas e navegação entre páginas.
 - **Tailwind CSS:** Framework CSS para estilização rápida e responsiva.
 - **Slick Carousel:** Para a criação de carrosséis de títulos.
+- **Firebase Authentication:** Para autenticação de usuários, garantindo acesso seguro à plataforma.
 - **Intersection Observer API:** Para implementar lazy loading de forma eficiente.
 - **API de Filmes:** Integração com uma API de terceiros para buscar dados de filmes e séries.
 
